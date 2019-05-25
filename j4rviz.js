@@ -49,11 +49,11 @@ if (window.innerWidth > 800) {
 var last = 0;
 $(window).scroll(function (event) {
     var st = $(this).scrollTop();
-    if (st &gt; last + 300){
+    if (st > last + 300){
     $("#header-container").css('transform', 'translateY(-48px)');
     last = st;
 }
-    else if (st &lt; last) {
+    else if (st < last) {
     $("#header-container").css('transform', 'translateY(0)');
     last = st;
 }
