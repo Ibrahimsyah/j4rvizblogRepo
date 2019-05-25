@@ -57,7 +57,7 @@ $(window).scroll(function (event) {
     $("#header-container").css('transform', 'translateY(0)');
     last = st;
 }
-  })
+  });
 
 document.addEventListener(& quot; DOMContentLoaded & quot;, function() {
     let lazyImages = [].slice.call(document.querySelectorAll(& quot; img.lazy & quot;));
